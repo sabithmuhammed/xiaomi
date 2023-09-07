@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navbar start-->
+    <nav class="navbar navbar-expand-md bg-white fixed-top ps-3 pe-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="images/mi.png" width="28" alt=""
+        /></a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Phone</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">TV & Smart Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Laptop & Tablet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LifeStyle</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav mb-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Discover</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="navbar-nav mb-0 ms-auto icons p-2">
+          <li class="nav-item me-4">
+            <img src="images/icons/search.svg" alt="" width="20" />
+          </li>
+          <li class="nav-item">
+            <img src="images/icons/cart.svg" alt="" width="20" />
+          </li>
+          <li class="nav-item d-none d-md-block ms-4">
+            <img src="images/icons/person.svg" alt="" width="23" />
+          </li>
+        </ul>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvas-content"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon fs-6"></span>
+        </button>
+      </div>
+      <!--OFFCANVAS CONTENT START-->
+      <div class="offcanvas offcanvas-end" id="offcanvas-content">
+        <div class="offcanvas-header">
+          <button
+            class="btn-close ms-auto"
+            data-bs-dismiss="offcanvas"
+          ></button>
+        </div>
+        <div class="offcanvas-body d-md-none">
+          <div class="sign-in ps-4 pe-3 mb-4">
+            <button class="btn btn-secondary rounded-pill ms-1">
+              <img src="images/icons/person.svg" alt="" width="20" />
+            </button>
+            <p class="mt-3 ms-2">Sign in / Sign up</p>
+            <i class="bi bi-caret-right ms-auto"></i>
+          </div>
+          <ul class="w-100 pe-3 mb-5">
+            <li class="offcanvas-item-big">
+              <p>Store</p>
+              <i class="bi bi-caret-right"></i>
+            </li>
+            <li class="offcanvas-item-big">
+              <p>Phone</p>
+              <i class="bi bi-caret-right"></i>
+            </li>
+            <li class="offcanvas-item-big">
+              <p>TV & Smart Home</p>
+              <i class="bi bi-caret-right"></i>
+            </li>
+            <li class="offcanvas-item-big">
+              <p>Laptop & Tablet</p>
+              <i class="bi bi-caret-right"></i>
+            </li>
+            <li class="offcanvas-item-big">
+              <p>LifeStyle</p>
+              <i class="bi bi-caret-right"></i>
+            </li>
+            <li class="offcanvas-item-big">
+              <p>Discover</p>
+              <i class="bi bi-caret-right"></i>
+            </li>
+            <li class="offcanvas-item-big">
+              <p>Support</p>
+              <i class="bi bi-caret-right"></i>
+            </li>
+          </ul>
+          <ul class="w-100 pe-4">
+            <li class="offcanvas-item-small">
+              <p>Support</p>
+              <i class="bi bi-plus"></i>
+            </li>
+            <li class="offcanvas-item-small">
+              <p>SHOP & LEARN</p>
+              <i class="bi bi-plus"></i>
+            </li>
+            <li class="offcanvas-item-small">
+              <p>RETAIL STORE</p>
+              <i class="bi bi-plus"></i>
+            </li>
+            <li class="offcanvas-item-small">
+              <p>ABOUT US</p>
+              <i class="bi bi-plus"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!--OFFCANVAS CONTENT END-->
+    </nav>
+
+    <!--Navbar end-->
+    <!--Main content start-->
+    <main>
+      <div class="container-fluid">
+        <div class="row banner-1 banner">
+          <div
+            class="col-12 col-md-6 text-white text-center mt-5 mt-md-auto mb-auto"
+          >
+            <h1>Redmi Smart Fire TV 4k 43</h1>
+            <h4>Launching on 15th September</h4>
+            <h3>Notify Me <i class="bi bi-caret-right"></i></h3>
+          </div>
+        </div>
+        <div class="row mt-3 banner-2 banner">
+          <div
+            class="col-12 col-md-6 text-white text-center mt-5 mt-md-auto mb-auto"
+          >
+            <h4>200 MP. SuperNote.</h4>
+            <h1>Redmi Note 12 Pro+ 5G</h1>
+            <h4 class="mb-3">The Camera That Captures It All</h4>
+            <h4>From ₹<span class="fs-3">29,999</span></h4>
+            <h4><del>₹33,999 </del></h4>
+            <button class="btn btn-light">Buy now</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 my-3 my-md-0 product">
+            <img src="images/1.webp" alt="" />
+            <div class="product-text">
+              <h1 class="fw-bold">Xiaomi&nbsp;13&nbsp;Pro</h1>
+              <h5>From ₹69,999*</h5>
+              <h5 class="fs-6 fs-md-5">
+                Shop Now <i class="bi bi-caret-right"></i>
+              </h5>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 my-3 my-3 my-md-0 product">
+            <img src="images/2.webp" alt="" />
+            <div class="product-text text-black">
+              <h1 class="fw-bold">Redmi Watch GPS</h1>
+              <h5>From ₹1,999*</h5>
+              <h5 class="fs-6 fs-md-5">
+                Shop Now <i class="bi bi-caret-right"></i>
+              </h5>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 mt-3 my-3 my-md-0 product">
+            <img src="images/3.webp" alt="" />
+            <div class="product-text">
+              <h1>Xiaomi&nbsp;UniBlade Trimmer</h1>
+              <h5>Your wait for new look is almost over <br />At ₹1,499</h5>
+              <h5>Shop Now <i class="bi bi-caret-right"></i></h5>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mt-3 my-3 my-md-0 product d-flex">
+            <div class="w-50 position-relative">
+              <img src="images/4-1.webp" alt="" />
+              <div class="product-text">
+                <h2>Laptops & Tablets</h2>
+                <h5>Buy now <i class="bi bi-caret-right"></i></h5>
+              </div>
+            </div>
+            <div class="w-50 position-relative">
+              <div
+                class="subcontainer-text h-25 text-center pt-2 close position-relative"
+              >
+                <h2>Xiaomi Beard <br />Trimmer 2C</h2>
+                <h5 class="orange close">
+                  Buy Now <i class="bi bi-caret-right"></i>
+                </h5>
+              </div>
+              <div class="sub-container h-75">
+                <img src="images/4-2.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="scroll-container m-auto d-md-flex">
+            <div class="w-100 w-md-50 scroll-img">
+              <img src="images/scroll/1.jpg" alt="" id="image" />
+            </div>
+            <div class="w-100 w-md-50 scroll-img text-center pt-md-4 animation">
+              <h6 id="hashtag" class="fw-bold orange mt-lg-5">
+                #SuperNote#SuperDesign
+              </h6>
+              <h1 id="name">Redmi Note 12</h1>
+              <h6 id="description">
+                The Sunrise Gold colour of #RedmiNote12 is definitely getting
+                some attention.
+              </h6>
+              <h5>
+                <p class="d-inline" id="buy">Buy Now</p>
+                <i class="bi bi-caret-right"></i>
+              </h5>
+              <div class="button mt-3 mb-0">
+                <button class="btn btn-dark me-2" id="previous">
+                  <i class="bi bi-caret-left"></i>
+                </button>
+                <button class="btn btn-dark ms-2" id="next">
+                  <i class="bi bi-caret-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="scroll-container ms-auto me-auto d-md-flex">
+            <div
+              class="scroll-img w-100 w-md-50 text-center ps-auto pe-auto ms-auto me-auto"
+            >
+              <h1>XIAOMI CARE</h1>
+              <div class="protect-container d-flex mt-1">
+                <div class="logo">
+                  <div class="warranty">
+                    <img src="images/icons/warranty.png" alt="" />
+                  </div>
+                  <h6>
+                    Mi Extended Warranty <i class="bi bi-caret-right"></i>
+                  </h6>
+                </div>
+                <div class="logo ms-5 me-5">
+                  <div class="screen-protect">
+                    <img src="images/icons/screen.png" alt="" />
+                  </div>
+                  <h6>Mi Screen Protect <i class="bi bi-caret-right"></i></h6>
+                </div>
+                <div class="logo">
+                  <div class="complete-protect">
+                    <img src="images/icons/full.png" alt="" />
+                  </div>
+                  <h6>Mi Complete Protect <i class="bi bi-caret-right"></i></h6>
+                </div>
+              </div>
+            </div>
+            <div class="scroll-img w-100 w-md-50 text-center">
+              <div class="h-50">
+                <h2>Service Centres</h2>
+                <p class="fs-5">
+                  We'll guide you to the best solution
+                  <i class="bi bi-caret-right"></i>
+                </p>
+              </div>
+              <div class="h-50">
+                <h2>Mi Exchange</h2>
+                <p class="fs-5">
+                  Renewed For Smoother Experience and Better value for Exchange
+                  <i class="bi bi-caret-right"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--Main content end-->
+    <footer>
+      <!--footer small start-->
+      <div class="small-screen mt-5 d-flex text-white d-md-none mb-0">
+        <p>Follow Mi</p>
+        <div class="footer-logo fs-5">
+          <i class="bi bi-facebook"></i><i class="bi bi-twitter ms-4 me-4"></i
+          ><i class="bi bi-instagram"></i>
+        </div>
+        <p>Let's stay in touch</p>
+        <div class="email">
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="enter email address"
+          /><button class="btn btn-dark:submit">
+            <i class="bi bi-caret-right text-white"></i>
+          </button>
+        </div>
+        <p>Get mi store app</p>
+        <button class="btn btn-light">Download on Google play</button>
+        <p>Sitemap</p>
+        <p>India / India</p>
+        <hr />
+        <p class="copy">
+          Copyright &copy; 2010 - 2020 Xiaomi. All Right Reserved
+        </p>
+      </div>
+      <!--footer small end-->
+      <!--footer big start-->
+      <div class="screen-big d-none d-md-flex mb-0">
+        <div
+          class="social d-flex justify-content-between mt-3 ps-4 mb-3 text-white d-xl-none"
+        >
+          <div class="social-logos">
+            <p>Follow Mi</p>
+            <div class="footer-logo fs-5">
+              <i class="bi bi-facebook"></i
+              ><i class="bi bi-twitter ms-4 me-4"></i
+              ><i class="bi bi-instagram"></i>
+            </div>
+          </div>
+          <div class="big-email">
+            <p>Let's stay in touch</p>
+            <div class="email d-flex">
+              <input
+                type="email"
+                name=""
+                id=""
+                placeholder="enter email address"
+              /><button class="btn btn-dark:submit">
+                <i class="bi bi-caret-right text-white"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+        <hr class="d-xl-none" />
+        <div
+          class="footer-text-area d-md-grid w-100 text-secondary ps-4 pt-xl-5"
+        >
+          <div class="">
+            <h6 class="text-white">Support</h6>
+            <p>Online Help</p>
+            <p>Customer Service</p>
+            <p>Shipping FAQ</p>
+            <p>Warranty</p>
+            <p>Mi Exchange</p>
+            <p>Bulk Order</p>
+            <p>User Guide</p>
+            <p>Laptop Drivers</p>
+            <p>Mi Screen Protect</p>
+            <p>Mi Extended Warranty</p>
+            <p>Mi Complete Protect</p>
+            <p>Certification</p>
+            <p>Service Center</p>
+          </div>
+          <div class="">
+            <h6 class="text-white">SHOP AND LEARN</h6>
+            <p>Xiaomi Phones</p>
+            <p>Redmi Phones</p>
+            <p>TV's</p>
+            <p>Laptops and Tablets</p>
+            <p>Audio</p>
+            <p>Lifestyle</p>
+            <p>Smart Home</p>
+          </div>
+          <div class="">
+            <h6 class="text-white">RETAIL STORE</h6>
+            <p>Mi Home</p>
+            <p>Mi Authorized Store</p>
+            <p>Mi Store Franchise</p>
+          </div>
+          <div class="">
+            <h6 class="text-white">ABOUT US</h6>
+            <p>Xiaomi</p>
+            <p>Privacy Policy</p>
+            <p>User Agreement</p>
+            <p>Integrity & Compliance</p>
+            <p>CSR and Disclosures</p>
+            <p>E-waste Management</p>
+            <p>In the Press</p>
+            <p>Trust Center</p>
+            <p>Culture</p>
+            <p>Smartphone Quality</p>
+            <p>Service Quality</p>
+          </div>
+          <div
+            class="large-screen-qr d-none d-xl-flex flex-column h-100 justify-content-between"
+          >
+            <p class="fw-bold fs-6 text-white">Follow Mi</p>
+            <div class="footer-logo fs-5">
+              <i class="bi bi-facebook"></i
+              ><i class="bi bi-twitter ms-4 me-4"></i
+              ><i class="bi bi-instagram"></i>
+            </div>
+            <p>Let's stay in touch</p>
+            <div class="email">
+              <input
+                type="email"
+                name=""
+                id=""
+                placeholder="enter email address"
+              /><button class="btn btn-dark:submit">
+                <i class="bi bi-caret-right text-white"></i>
+              </button>
+            </div>
+            <div
+              class="qr-large h-25 mb-5 d-flex flex-row w-75 border border-2 rounded-3 align-items-center"
+            >
+              <div class="qr ms-2"><img src="images/qr.webp" alt="" /></div>
+              <div class="qr-text ms-4">
+                <h6 class="mb-3 text-white">Get store app</h6>
+                <p>
+                  Scan for our up-to-date information for better shopping
+                  experience
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="d-xl-none" />
+        <div class="qr-container ps-4 text-secondary d-xl-none">
+          <div class="qr"><img src="images/qr.webp" alt="" /></div>
+          <div class="qr-text ms-4">
+            <h6 class="mb-3 text-white">Get store app</h6>
+            <p>
+              Scan for our up-to-date information for better shopping experience
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div
+          class="site-map p-4 d-flex justify-content-between text-white d-xl-none"
+        >
+          <h6>Sitemap</h6>
+          <h6>India / India <i class="bi bi-globe ms-2"></i></h6>
+        </div>
+        <hr class="d-xl-none" />
+        <div
+          class="big-copy ps-4 text-secondary d-xl-flex justify-content-between w-100"
+        >
+          <p class="text-xl-white">
+            Copyright &copy; 2010 - 2023 Xiaomi. All Rights Reserved
+          </p>
+          <div
+            class="sitmap-xl w-xl-75 d-none d-xl-flex justify-content-between text-xl-white"
+          >
+            <h6>Sitemap</h6>
+            <h6 class="ms-5 me-4">
+              India / India <i class="bi bi-globe ms-2"></i>
+            </h6>
+          </div>
+        </div>
+      </div>
+      <!--footer big end-->
+    </footer>
+    <!--Bootstrap JS cdn link start-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <!--Bootstrap JS cdn link end-->
+    <!--Local Script link start-->
+    <script src="script.js"></script>
+    <!--Local Script link end-->
+  </body>
+</html>
