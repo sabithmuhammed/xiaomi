@@ -11,6 +11,12 @@
 
 
 /* util */
+.hover{
+    border-bottom:5px solid #ffffff ;
+}
+.hover:hover{
+ border-bottom:5px solid #F26300 ;
+}
 nav {
     height: 48px;
 }
